@@ -75,6 +75,16 @@
     text-decoration: none;
 }
 
+.icons{
+    word-spacing: 0.5em;
+    position: absolute;
+    right: 10px;
+    width: 145px;
+    padding: 10px;
+}
+
+
+
 @media only screen and (max-width: 768px){
     .home .titles {
         padding: 0 90px;
@@ -179,13 +189,14 @@
     margin: 0 0 0 7px;
 }
 
-services .service-box p{
+.services .service-box p{
     margin: 0;
 }
 
 .work{
     padding-top: 100px;
     padding-bottom: 70px;
+    background-color:#f9f9f9;
 }
 
 .work .list-filter{
@@ -222,7 +233,6 @@ services .service-box p{
     margin: 25px 0 0 0;
 
 }
-
 
 .work-box{
     position: relative;
@@ -310,4 +320,11 @@ services .service-box p{
         font-size: 14px;
     }
 }
+
+footer li {
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+    
+} 
 

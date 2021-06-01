@@ -13,10 +13,17 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
-
+<header>
+</header>
 <body>
     <section class="home" id="home">
         <div class="titles">
+            <section class="icons" id="imgicons">
+                <div class="thumbnails">
+                    <a href="https://github.com/amoyer-blip"><img src="images/github.jpg" width="50" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/ally-moyer/"><img src="images/linkedin.jpg" width="50" alt="linkedin"></a>
+                </div>
+            </section>
             <div class="titles-wrap">
                 <h1>I'm<span> Ally Moyer</span></h1>
                 <h2><span class="txt-rotate"></span></h2>
@@ -24,10 +31,11 @@
                 <div class="getintouch">
                     <div><a href="pages/contact.html" class="btn">Get In Touch</a></div>
                 </div>
-            </div>
+                <br>
+            </div>                    
         </div>
     </section>
-
+    
     <section class="services" id="services">
         <div class="container">
             <div class="row">
@@ -137,9 +145,9 @@
             <div class="row">
                 <ul class="list-filter">
                     <li><a class="lists active" data-filter="*">All</a></li>
-                    <li><a class="lists" data-filter=".asp.netmvc">ASP.NET MVC</a></li>
+                    <li><a class="lists" data-filter=".aspnetmvc">ASP.NET MVC</a></li>
                     <li><a class="lists" data-filter=".webdesign">Web Design</a></li>
-                    <li><a class="lists" data-filter=".graphic">Graphic</a></li>
+                    <li><a class="lists" data-filter=".other">Other</a></li>
                     <li><a class="lists" data-filter=".mobileapps"></a></li>
                 </ul>
             </div>
@@ -148,7 +156,7 @@
         <!------------------------------------------IMAGES----1---------------------------------------------------->
         <div class="container">
             <div class="row projects-wrapper">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-10">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-10 webdesign aspnetmvc">
                     <div class="work-box">
                         <a href="images\EquineNow.jpg" class="popup-image"></a>
                         <img src="images\EquineNow.jpg" alt="work image 1" class="work-img img-fluid">
@@ -179,7 +187,7 @@
 
                 <!------------------------------------------IMAGES--------2------------------------------------------------>
 
-                <div class="col-12 col-sm-6 col-md-6 col-lg-10 graphic">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-10 other">
                     <div class="work-box">
                         <a href="images\creature.jpg" class="popup-image"></a>
                         <img src="images\creature.jpg" alt="work image 2" class="work-img img-fluid">
@@ -314,6 +322,14 @@
             </div>
         </div>
     ---------------------------------------------------------------------------------------------------------->
+
+    <footer>
+        <ul class="siteinfotable">
+            <li>&copy;2021 |</li>
+            <li>Ally Moyer |</li>
+            <li><a href="images\AllyMoyer2021_Resume.docx" target="_blank">Download Resume</a></li>
+        </ul>
+    </footer>
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
